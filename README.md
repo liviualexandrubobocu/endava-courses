@@ -56,7 +56,9 @@ tns run android --bundle
 ## If you already have installed nativescript environment:
 
 git clone https://github.com/liviualexandrubobocu/endava-courses.git
+
 npm install
+
 tns run android --bundle
 
 ## For production builds (APKs):
