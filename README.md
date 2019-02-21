@@ -1,9 +1,9 @@
-## endava-courses
+# endava-courses
 Proof Of Concept for Endava Courses
 
 ## Installation
 
-# Steps:
+## Steps:
 
 1. Turn Virtualization On - In order to install HAXM emulator you need to turn on VT-x technology on CPU from BIOS. Enter on Windows start, then F1, go to CPU setup, and turn VT-x on. 
 
