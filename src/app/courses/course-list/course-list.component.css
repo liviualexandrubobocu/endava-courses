@@ -1,0 +1,66 @@
+
+Page {
+  background-color: white;
+}
+
+.horizontal-line {
+  height: 1;
+  background:#de411b;
+  vertical-align:center;
+  margin: 12 0 8 0;
+  opacity:0.4;
+}
+
+.content {
+  margin: 12;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.course-title{
+  font-size:20px;
+  color:#de411b;
+}
+
+.courses-trainer{
+  font-size:16px;
+  margin:10px 0;
+  color:#000;
+  font-weight:bold;
+}
+
+.courses-row Label{
+  height:100px;
+  width:100%;
+  clear:both;
+  display:block;
+}
+
+.courses-btn {
+  margin:0 0 15px 0;
+  background:#de411b;
+  color:#fff;
+  padding:0;
+}
+
+.courses-container{
+  padding:15px 0;
+}
+
+.date-time {
+  float:left;
+  display:inline;
+  width:auto;
+  height:auto;
+}
+
+.info {
+  font-size:15px;
+  margin-bottom:15px;
+}
+
+.courses-container Label {
+  margin-left:10px;
+}

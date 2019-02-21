@@ -1,0 +1,14 @@
+<ActionBar [title]="title"></ActionBar>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="pageNavigatingTo" actionBarHidden="true">
+    <GridLayout rows="auto, *" swipe="backSwipe">
+        <StackLayout class="courses-container" [row]="2">
+            <Label [text]="course.name" class="course-details-title"></Label>
+            <Label [text]="course.trainer" class="course-trainer"></Label>
+            <Label [text]="course.date + ' ' + course.time" class="info"></Label>
+            <Label [text]="course.location" class="info"></Label>
+            <Label [text]="course.description" class="info" textWrap="true"></Label>
+            <Button text="Back" (tap)="onTap()" class="courses-btn"></Button>
+            <StackLayout class="horizontal-line" [row]="i+2" margin="0 0 0 0"></StackLayout>
+        </StackLayout>
+    </GridLayout>
+</Page>

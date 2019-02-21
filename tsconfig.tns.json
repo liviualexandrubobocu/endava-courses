@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "experimentalDecorators": true,
     "module": "es2015",
     "moduleResolution": "node",
     "baseUrl": "./",

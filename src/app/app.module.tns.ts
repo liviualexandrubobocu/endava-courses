@@ -4,7 +4,7 @@ import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-
+import { CoursesModule } from './courses/courses.module.tns';
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from 'nativescript-angular/forms';
@@ -20,6 +20,7 @@ import { HomeComponent } from './home/home.component';
   imports: [
     NativeScriptModule,
     AppRoutingModule,
+    CoursesModule
   ],
   providers: [],
   bootstrap: [AppComponent],

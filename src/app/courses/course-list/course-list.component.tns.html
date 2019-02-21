@@ -1,0 +1,22 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="pageNavigatingTo" actionBarHidden="true">
+    <GridLayout rows="auto, *" swipe="backSwipe">
+        <!-- Content -->
+        <ScrollView>
+            <GridLayout row="1" rows="auto, auto, auto, auto, *" class="content">
+
+                <!-- Line -->
+                <StackLayout class="horizontal-line" row="0" margin="0 0 0 0"></StackLayout>
+
+                <!-- Courses -->
+                <StackLayout class="courses-container" *ngFor="let course of courses; index as i" [row]="i+1">
+                    <Label [text]="course.name" class="course-title"></Label>
+                    <Label [text]="course.trainer" class="courses-trainer"></Label>
+                    <Label [text]="course.date + ' ' + course.time" class="info"></Label>
+                    <Label [text]="course.location" class="info"></Label>
+                    <Button text="Details" (tap)="onTap(course.id)" class="courses-btn"></Button>
+                    <StackLayout class="horizontal-line" [row]="i+2" margin="0 0 0 0"></StackLayout>
+                </StackLayout>
+            </GridLayout>
+        </ScrollView>
+    </GridLayout>
+</Page>

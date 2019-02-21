@@ -1,0 +1,30 @@
+.courses-btn {
+    margin:0 0 15px 0;
+    background:#de411b;
+    color:#fff;
+}
+
+.courses-container {
+    padding:30px;
+}
+
+.course-details-title {
+    font-size:20px;
+    color:#de411b;
+    margin:0 0 15px 0;
+}
+
+.course-trainer{
+    font-weight: bold;
+    font-size:16px;
+    color:#000;
+    margin-bottom:10px;
+}
+
+.info{
+    margin-bottom:10px;
+}
+
+.courses-container Label{
+    margin-left:10px;
+}
