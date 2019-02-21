@@ -1,4 +1,4 @@
-# endava-courses
+# Endava Courses
 Proof Of Concept for Endava Courses
 
 ## Installation
@@ -52,3 +52,17 @@ ng new --collection=@nativescript/schematics my-shared-app --shared
 ## Run application: 
 
 tns run android --bundle
+
+## If you already have installed nativescript environment:
+
+git clone https://github.com/liviualexandrubobocu/endava-courses.git
+npm install
+tns run android --bundle
+
+## For production builds (APKs):
+
+### Generate new keys:
+keytool -genkey -v -keystore my-release-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+
+### Build command (after generating the key): 
+tns build android --release --key-store-path "C:\Location\Of\Application\my-release-key.keystore" --key-store-password android --key-store-alias my-key-alias --key-store-alias-password android
