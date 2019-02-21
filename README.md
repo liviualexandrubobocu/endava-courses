@@ -1,12 +1,15 @@
 # Endava Courses
 Proof Of Concept for Endava Courses
 
-## Installation
+## NativeScript Environment Setup
 
 ## Steps:
 
-### 1. Turn Virtualization On:
+### 0. Turn Virtualization On:
 In order to install HAXM emulator you need to turn on VT-x technology on CPU from BIOS. Enter on Windows start, then F1, go to CPU setup, and turn VT-x on. 
+
+### 1. Install Node.js:
+Install the latest LTS version 10.x from Node.js website https://nodejs.org
 
 ### 2. Install Android Studio: 
 Install Android Studio in order to be able to configure AVD manager and emulators (with operating system, type of view and RAM)
